@@ -22,11 +22,22 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="@string/borrar_provincia"
         android:onClick="borrarProvincia"
+        android:text="@string/borrar_provincia"
         app:layout_constraintEnd_toEndOf="@+id/bt_insertarp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/bt_insertarp"
         app:layout_constraintTop_toBottomOf="@+id/bt_insertarp" />
+
+    <Button
+        android:id="@+id/bt_mostrarCiudades"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Mostrar Ciudades"
+        android:onClick="mostrarCiudades"
+        app:layout_constraintEnd_toEndOf="@+id/bt_borrarp"
+        app:layout_constraintStart_toStartOf="@+id/bt_borrarp"
+        app:layout_constraintTop_toBottomOf="@+id/bt_borrarp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
